@@ -1,0 +1,9 @@
+.able {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 8px;
+  left: 52px;
+}

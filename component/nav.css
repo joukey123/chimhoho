@@ -10,3 +10,21 @@
   font-size: 28px;
   color: #4fa5ad;
 }
+.colorchange {
+  color: #365457;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nav-icons span:first-child:hover,
+.nav-icons span:nth-child(2):hover,
+.nav-icons span:nth-child(3):hover,
+.nav-icons span:last-child:hover {
+  color: #365457;
+}

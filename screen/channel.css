@@ -1,0 +1,32 @@
+.channel {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.channel-youtube {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.channel-youtube img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.channel-youtube h1 {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.channel-youtube h3 {
+  font-size: 13px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.channel-spacing {
+  margin-top: 160px;
+}

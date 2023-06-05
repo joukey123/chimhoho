@@ -7,12 +7,14 @@
 @import "/component/postcomponent.css";
 @import "/component/nav.css";
 @import "/component/communityicon.css";
+@import "/component/able.css";
 
 /* screen */
 @import "/screen/main.css";
 @import "/screen/comunity.css";
 @import "/screen/board.css";
-
+@import "/screen/channel.css";
+@import "/screen//user.css";
 * {
   box-sizing: border-box;
 }

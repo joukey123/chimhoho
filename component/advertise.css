@@ -9,6 +9,18 @@
   align-items: center;
   justify-content: space-around;
 }
+.advertise:hover button {
+  animation: scale 1s ease-in-out infinite;
+}
+@keyframes scale {
+  from {
+    transform: none;
+  }
+  to {
+    transform: scale(1.3);
+  }
+}
+
 .advertise img {
   width: 50px;
   height: 50px;
