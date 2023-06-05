@@ -1,0 +1,6 @@
+.category-title {
+  display: flex;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 25px 0px 15px 5px;
+}

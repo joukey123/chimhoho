@@ -3,6 +3,9 @@
 /* component */
 @import "/component/header.css";
 @import "/component/advertise.css";
+@import "/component/text.css";
+@import "/component/postcomponent.css";
+@import "/component/nav.css";
 
 * {
   box-sizing: border-box;
@@ -15,11 +18,93 @@ body {
   justify-content: center;
   height: 100vh;
   color: rgba(0, 0, 0, 0.7);
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 .phone {
   width: 390px;
   height: 844px;
   background-color: white;
+}
+
+.recent-upload {
+  padding: 0 20px;
+}
+.recent-upload__list {
+  display: flex;
+  width: 100%;
+  height: auto;
+  overflow: scroll;
+}
+.recent-upload__list::-webkit-scrollbar {
+  display: none;
+}
+.recent-upload__image {
+  width: 246px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.recent-upload__image img {
+  width: 246px;
+  height: 138px;
+  border-radius: 25px;
+  margin: 0px 0 5px 0px;
+}
+.recent-upload__image p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  margin-left: 5px;
+}
+.recent-upload__image h5 {
+  font-size: 13px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  margin-left: 5px;
+}
+
+.recent-visted {
+  padding: 0 20px;
+}
+
+.visited-icons {
+  display: flex;
+  overflow-x: scroll;
+}
+.visited-icons::-webkit-scrollbar {
+  display: none;
+}
+
+.visited-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+.visited-image {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.visited-text {
+  text-align: center;
+  padding: 8px 0;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.hot-post {
+  width: 100%;
+  padding: 0 20px;
+  overflow-y: hidden;
 }
