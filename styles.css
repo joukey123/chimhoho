@@ -12,19 +12,12 @@
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.1);
-  display: flex;
   align-items: center;
   justify-content: center;
+  width: 100vw;
   height: 100vh;
   color: rgba(0, 0, 0, 0.7);
   font-family: "Nanum Gothic", sans-serif;
-}
-
-.phone {
-  width: 390px;
-  height: 844px;
-  background-color: white;
 }
 
 .recent-upload {
@@ -74,6 +67,7 @@ body {
 .visited-icons {
   display: flex;
   overflow-x: scroll;
+  justify-content: space-between;
 }
 .visited-icons::-webkit-scrollbar {
   display: none;
@@ -101,10 +95,10 @@ body {
   padding: 8px 0;
   font-size: 15px;
   line-height: 20px;
+  width: 60px;
 }
 
 .hot-post {
   width: 100%;
   padding: 0 20px;
-  overflow-y: hidden;
 }

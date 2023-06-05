@@ -1,9 +1,10 @@
 .advertise {
-  width: auto;
+  width: 90%;
   height: 90px;
   border-radius: 15px;
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 30px 20px;
+  margin-top: 160px;
+  margin: 160px 5% 10% 4%;
   background-color: #f9f5f2;
   display: flex;
   align-items: center;
@@ -15,7 +16,7 @@
 }
 .avertise-text {
   line-height: 25px;
-  margin-left: -50px;
+  margin-left: -20%;
 }
 .avertise-text h1 {
   font-size: 20px;
