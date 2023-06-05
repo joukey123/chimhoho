@@ -6,9 +6,12 @@
 @import "/component/text.css";
 @import "/component/postcomponent.css";
 @import "/component/nav.css";
+@import "/component/communityicon.css";
 
 /* screen */
 @import "/screen/main.css";
+@import "/screen/comunity.css";
+@import "/screen/board.css";
 
 * {
   box-sizing: border-box;
@@ -30,4 +33,9 @@ section {
 
 main {
   padding: 0 10px 0 20px;
+}
+
+.displaynone {
+  opacity: 0;
+  visibility: hidden;
 }

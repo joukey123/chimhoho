@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
-    <title>침착맨-home</title>
+    <title>침착맨-board</title>
   </head>
   <body>
     <header>
@@ -34,80 +34,32 @@
         <div class="header-title__blank"></div>
       </div>
     </header>
-
-    <section>
-      <div class="advertise">
-        <img
-          src="https://media.licdn.com/dms/image/C510BAQExC85qi_Bpug/company-logo_200_200/0/1542000885713?e=2147483647&v=beta&t=0flBx2mOyuGhNUH041Sdmc_vGZDwHGQLc8axD5cfNmo"
-        />
-        <div class="avertise-text">
-          <h1>Challenges</h1>
-          <h4>강의만으로는 부족해!</h4>
-        </div>
-        <button><i class="fa-solid fa-chevron-right"></i></button>
-      </div>
-    </section>
-
+    <div class="find">
+      <input type="text" placeholder=" '침착맨' 에서 검색" />
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
     <main>
-      <div class="recent-upload">
-        <span class="category-title">최근 업로드</span>
-        <div class="recent-upload__list">
-          <div class="recent-upload__image">
-            <img
-              src="https://i.ytimg.com/vi/SK1jvuPcdeE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDnD7RFTe72NIedMKwwDAbLRCkTPw"
-            />
-            <p>AI가 만든 그림 맞히기 & 미필 판독 퀴즈</p>
-            <h5>조회수 61만회﹒22시간 전</h5>
+      <div class="community-list">
+        <div class="community-list-text">
+          <div class="category-title">
+            <span>침착맨</span>
+            <span>: 침착맨</span>
           </div>
-
-          <div class="recent-upload__image">
-            <img
-              src="https://i.ytimg.com/vi/SK1jvuPcdeE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDnD7RFTe72NIedMKwwDAbLRCkTPw"
-            />
-            <p>AI가 만든 그림 맞히기 & 미필 판독 퀴즈</p>
-            <h5>조회수 61만회﹒22시간 전</h5>
+          <div class="category-title__sub board-ver">
+            <span>기본순</span>
+            <span>최신순</span>
+            <span>인기순</span>
           </div>
         </div>
-      </div>
-
-      <div class="recent-visted space">
-        <span class="category-title">최근 방문 게시판</span>
-        <div class="visited-icons">
-          <div class="visited-icon">
-            <div class="visited-image">☺️</div>
-            <div class="visited-text">침착맨</div>
-          </div>
-
-          <div class="visited-icon">
-            <div class="visited-image">☺️</div>
-            <div class="visited-text">유머</div>
-          </div>
-          <div class="visited-icon">
-            <div class="visited-image">☺️</div>
-            <div class="visited-text">반려동물</div>
-          </div>
-          <div class="visited-icon">
-            <div class="visited-image">☺️</div>
-            <div class="visited-text">침착맨 짤</div>
-          </div>
-          <div class="visited-icon">
-            <div class="visited-image">☺️</div>
-            <div class="visited-text">침착맨 팬아트</div>
-          </div>
-          <div class="visited-icon">
-            <div class="visited-image">☺️</div>
-            <div class="visited-text">침착맨 갤러리</div>
-          </div>
-          <div class="visited-icon">
-            <div class="visited-image">☺️</div>
-            <div class="visited-text">짤</div>
-          </div>
+        <div class="board-list">
+          <span>침착맨</span>
+          <span>침착맨 짤</span>
+          <span>침착맨 팬아트</span>
+          <span>침착맨 찾아요</span>
         </div>
       </div>
-
-      <div class="hot-post">
-        <span class="category-title">인기 게시글</span>
-        <div class="post-componet">
+      <div class="board-list__post">
+        <div class="post-componet board-boder">
           <div class="post-thumbnail">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUIxz-HPr03axmW3xZazLjO7HHh2LwoEk8A&usqp=CAU"
@@ -125,7 +77,7 @@
             </div>
           </div>
         </div>
-        <div class="post-componet">
+        <div class="post-componet board-boder">
           <div class="post-thumbnail">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUIxz-HPr03axmW3xZazLjO7HHh2LwoEk8A&usqp=CAU"
@@ -143,7 +95,79 @@
             </div>
           </div>
         </div>
-        <div class="post-componet">
+        <div class="post-componet board-boder">
+          <div class="post-thumbnail">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUIxz-HPr03axmW3xZazLjO7HHh2LwoEk8A&usqp=CAU"
+            />
+          </div>
+          <div class="post-text">
+            <div class="post-text__title">
+              <p>[침착맨] 침호호로 놀러오세요. 오늘은 테스트입니다.</p>
+              <span>200</span>
+            </div>
+            <div class="post-text__writer">
+              <span>쿠키오빠﹒11시간전</span>
+              <span><i class="fa-regular fa-eye"></i>100</span>
+              <span><i class="fa-regular fa-thumbs-up"></i>5</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-componet board-boder">
+          <div class="post-thumbnail">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUIxz-HPr03axmW3xZazLjO7HHh2LwoEk8A&usqp=CAU"
+            />
+          </div>
+          <div class="post-text">
+            <div class="post-text__title">
+              <p>[침착맨] 침호호로 놀러오세요. 오늘은 테스트입니다.</p>
+              <span>200</span>
+            </div>
+            <div class="post-text__writer">
+              <span>쿠키오빠﹒11시간전</span>
+              <span><i class="fa-regular fa-eye"></i>100</span>
+              <span><i class="fa-regular fa-thumbs-up"></i>5</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-componet board-boder">
+          <div class="post-thumbnail">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUIxz-HPr03axmW3xZazLjO7HHh2LwoEk8A&usqp=CAU"
+            />
+          </div>
+          <div class="post-text">
+            <div class="post-text__title">
+              <p>[침착맨] 침호호로 놀러오세요. 오늘은 테스트입니다.</p>
+              <span>200</span>
+            </div>
+            <div class="post-text__writer">
+              <span>쿠키오빠﹒11시간전</span>
+              <span><i class="fa-regular fa-eye"></i>100</span>
+              <span><i class="fa-regular fa-thumbs-up"></i>5</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-componet board-boder">
+          <div class="post-thumbnail">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUIxz-HPr03axmW3xZazLjO7HHh2LwoEk8A&usqp=CAU"
+            />
+          </div>
+          <div class="post-text">
+            <div class="post-text__title">
+              <p>[침착맨] 침호호로 놀러오세요. 오늘은 테스트입니다.</p>
+              <span>200</span>
+            </div>
+            <div class="post-text__writer">
+              <span>쿠키오빠﹒11시간전</span>
+              <span><i class="fa-regular fa-eye"></i>100</span>
+              <span><i class="fa-regular fa-thumbs-up"></i>5</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-componet board-boder">
           <div class="post-thumbnail">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUIxz-HPr03axmW3xZazLjO7HHh2LwoEk8A&usqp=CAU"

@@ -22,7 +22,7 @@
   font-size: 18px;
 }
 .post-text__title p {
-  width: 300px;
+  width: 360px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

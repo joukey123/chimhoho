@@ -1,0 +1,36 @@
+.board-ver span {
+  margin-left: 8px;
+}
+
+.board-ver span:first-child {
+  font-weight: 700;
+}
+
+.category-title span:last-child {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.board-list {
+  width: 95%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #4fa5ad;
+  padding: 15px 20px;
+  color: white;
+  border-radius: 50px;
+  margin-bottom: 25px;
+}
+
+.board-list__post {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.board-boder {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}

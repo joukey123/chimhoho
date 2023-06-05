@@ -1,0 +1,38 @@
+.visited-icons {
+  display: flex;
+  overflow-x: scroll;
+  justify-content: flex-start;
+}
+.visited-icons::-webkit-scrollbar {
+  display: none;
+}
+.visited-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 22px;
+}
+.visited-icon a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visited-image {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.visited-text {
+  text-align: center;
+  padding: 8px 0;
+  font-size: 15px;
+  line-height: 20px;
+  width: 60px;
+}
