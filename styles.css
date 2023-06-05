@@ -8,6 +8,7 @@
 @import "/component/nav.css";
 @import "/component/communityicon.css";
 @import "/component/able.css";
+@import "/component/nomobile.css";
 
 /* screen */
 @import "/screen/main.css";
