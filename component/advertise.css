@@ -1,0 +1,35 @@
+.advertise {
+  width: auto;
+  height: 90px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 30px 20px;
+  background-color: #f9f5f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.advertise img {
+  width: 50px;
+  height: 50px;
+}
+.avertise-text {
+  line-height: 25px;
+  margin-left: -50px;
+}
+.avertise-text h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.avertise-text h4 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
