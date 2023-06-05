@@ -2,11 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .post-thumbnail {
   display: flex;
-  margin-left: 5px;
 }
 .post-thumbnail img {
   width: 50px;
@@ -15,7 +14,7 @@
 }
 .post-text {
   line-height: 25px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .post-text__title {
   display: flex;
@@ -23,7 +22,7 @@
   font-size: 18px;
 }
 .post-text__title p {
-  width: 250px;
+  width: 300px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
